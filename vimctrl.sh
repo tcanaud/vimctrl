@@ -1,7 +1,7 @@
 rm -f ~/.vimrc
 cp .vimrc ~/
 rm -rf .vim
-mkdir ~/.vim
+mkdir ~/.vim ~/.vim/colors
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle
