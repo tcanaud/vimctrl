@@ -8,3 +8,4 @@ cd ~/.vim/bundle
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git
 git clone https://github.com/morhetz/gruvbox.git /tmp/gruvbox
 cp /tmp/gruvbox/colors/gruvbox.vim ~/.vim/colors/
+rm -rf /tmp/gruvbox
